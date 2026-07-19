@@ -185,11 +185,9 @@ with middle:
             st.error(f"No Documents Uploaded.")
         elif question.strip() == "":
             st.error("Please enter a question.")
-            st.stop()
         elif st.session_state.session_id and are_documents_expired(st.session_state.session_id):
             st.error("The uploaded documents have expired after 30 minutes.\n\n"
                     "Please upload the document(s) again to continue.")
-            st.stop()
         else:    
             with st.spinner("Generating response..."):
                 st.session_state.response = get_response(
