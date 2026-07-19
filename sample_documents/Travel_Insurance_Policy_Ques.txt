@@ -1,0 +1,8 @@
+Questions for Travel_Insurance_Policy.txt
+
+- What is covered under travel insurance?
+- What is the medical emergency coverage amount?
+- Is passport loss covered?
+- What are the exclusions?
+- How many days are allowed for claim reporting?
+- Are ambulance expenses covered?
