@@ -13,3 +13,4 @@ transformers==4.56.0
 huggingface-hub==0.34.4
 tokenizers==0.22.0
 safetensors==0.6.2
+PyPDF2==3.0.1
